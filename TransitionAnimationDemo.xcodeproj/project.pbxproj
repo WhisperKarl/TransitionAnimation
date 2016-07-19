@@ -23,6 +23,9 @@
 		CB7365CE1D3611A90033D1CA /* TransitionAnimationTest.m in Sources */ = {isa = PBXBuildFile; fileRef = CB7365CD1D3611A90033D1CA /* TransitionAnimationTest.m */; };
 		CB7365D11D3617340033D1CA /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB7365D01D3617340033D1CA /* SecondViewController.m */; };
 		CB7365D31D3618040033D1CA /* 封面.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CB7365D21D3618040033D1CA /* 封面.jpg */; };
+		CB8C0B8D1D3DF932003CD635 /* SpringAnimationController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB8C0B8C1D3DF932003CD635 /* SpringAnimationController.m */; };
+		CB8C0B901D3DF968003CD635 /* SpringTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = CB8C0B8F1D3DF968003CD635 /* SpringTransition.m */; };
+		CB8C0B931D3E0539003CD635 /* SpringSecondController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB8C0B921D3E0539003CD635 /* SpringSecondController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -73,6 +76,12 @@
 		CB7365CF1D3617340033D1CA /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
 		CB7365D01D3617340033D1CA /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		CB7365D21D3618040033D1CA /* 封面.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "封面.jpg"; sourceTree = "<group>"; };
+		CB8C0B8B1D3DF932003CD635 /* SpringAnimationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpringAnimationController.h; sourceTree = "<group>"; };
+		CB8C0B8C1D3DF932003CD635 /* SpringAnimationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpringAnimationController.m; sourceTree = "<group>"; };
+		CB8C0B8E1D3DF968003CD635 /* SpringTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpringTransition.h; sourceTree = "<group>"; };
+		CB8C0B8F1D3DF968003CD635 /* SpringTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpringTransition.m; sourceTree = "<group>"; };
+		CB8C0B911D3E0539003CD635 /* SpringSecondController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpringSecondController.h; sourceTree = "<group>"; };
+		CB8C0B921D3E0539003CD635 /* SpringSecondController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpringSecondController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +120,10 @@
 				CB62E8AC1D373E4B00065233 /* QQFirstViewController.m */,
 				CB62E8AE1D373E5500065233 /* QQSecondViewController.h */,
 				CB62E8AF1D373E5500065233 /* QQSecondViewController.m */,
+				CB8C0B8B1D3DF932003CD635 /* SpringAnimationController.h */,
+				CB8C0B8C1D3DF932003CD635 /* SpringAnimationController.m */,
+				CB8C0B911D3E0539003CD635 /* SpringSecondController.h */,
+				CB8C0B921D3E0539003CD635 /* SpringSecondController.m */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -124,6 +137,8 @@
 				CB62E8B21D373FB300065233 /* QQTransitionToSecond.m */,
 				CB26B8451D37824E006C7C7A /* QQTransitionBackToFirst.h */,
 				CB26B8461D37824E006C7C7A /* QQTransitionBackToFirst.m */,
+				CB8C0B8E1D3DF968003CD635 /* SpringTransition.h */,
+				CB8C0B8F1D3DF968003CD635 /* SpringTransition.m */,
 			);
 			name = Transition;
 			sourceTree = "<group>";
@@ -326,9 +341,12 @@
 			files = (
 				CB7365D11D3617340033D1CA /* SecondViewController.m in Sources */,
 				CB7365A11D3611610033D1CA /* ViewController.m in Sources */,
+				CB8C0B931D3E0539003CD635 /* SpringSecondController.m in Sources */,
 				CB73659E1D3611610033D1CA /* AppDelegate.m in Sources */,
+				CB8C0B901D3DF968003CD635 /* SpringTransition.m in Sources */,
 				CB62E8AD1D373E4B00065233 /* QQFirstViewController.m in Sources */,
 				CB62E8B01D373E5500065233 /* QQSecondViewController.m in Sources */,
+				CB8C0B8D1D3DF932003CD635 /* SpringAnimationController.m in Sources */,
 				CB73659B1D3611610033D1CA /* main.m in Sources */,
 				CB26B8471D37824E006C7C7A /* QQTransitionBackToFirst.m in Sources */,
 				CB62E8B31D373FB300065233 /* QQTransitionToSecond.m in Sources */,
